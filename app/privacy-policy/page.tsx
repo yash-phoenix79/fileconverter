@@ -1,7 +1,7 @@
 export default function PrivacyPolicy() {
   return (
     <div className="space-y-12 text-md md:text-lg text-gray-500 pb-4 md:pb-8">
-      <p>Effective Date: Wed 6 Sep 2023</p>
+      <p>Effective Date: Sat 14 Oct 2023</p>
       <p>
         At Modifio, we are committed to safeguarding your privacy. This Privacy
         Policy outlines our practices regarding the collection, use, and
@@ -105,7 +105,7 @@ export default function PrivacyPolicy() {
         <p>
           If you have any questions or concerns about this Privacy Policy or the
           data we collect, please contact us at
-          souhailbenlhachemi1999@gmail.com.
+          yash.claire@gmail.com.
         </p>
       </div>
 

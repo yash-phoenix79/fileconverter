@@ -13,6 +13,17 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      backgroundColor: {
+        'dark-primary': '#111827',     // Background color for the entire page
+        'dark-secondary': '#1E293B',   // Background color for the navigation bar
+        'dark-body': '#1E293B',        // Background color for the page body
+        'dark-drop-zone': '#111827',   // Background color for the drop zone section
+      },
+      textColor: {
+        'dark-text': '#D1D5DB',       // Text color for most of the content
+        'dark-primary': '#F3F4F6',     // Text color for primary elements
+        'dark-link': '#93C5FD',        // Text color for links or interactive elements
+      },
     },
   },
   plugins: [],

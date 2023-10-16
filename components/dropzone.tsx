@@ -283,7 +283,7 @@ export default function Dropzone() {
                     setSelected(value);
                     updateAction(action.file_name, value);
                   }}
-                  value={selcted}
+                  value={action.to}
                 >
                   <SelectTrigger className="w-32 outline-none focus:outline-none focus:ring-0 text-center text-gray-600 bg-gray-50 text-md font-medium">
                     <SelectValue placeholder="..." />
@@ -433,7 +433,7 @@ export default function Dropzone() {
       {({ getRootProps, getInputProps }) => (
         <div
           {...getRootProps()}
-          className=" bg-gray-50 h-72 lg:h-80 xl:h-96 rounded-3xl shadow-sm border-2 border-dashed cursor-pointer flex items-center justify-center"
+          className=" bg-gray-50 h-72 lg:h-80 xl:h-96 rounded-3xl shadow-sm border-2 border-dashed cursor-pointer flex items-center justify-center dark:bg-slate-300"
         >
           <input {...getInputProps()} />
           <div className="space-y-4 text-gray-500">
@@ -451,7 +451,7 @@ export default function Dropzone() {
                 <div className="justify-center flex text-6xl">
                   <FiUploadCloud />
                 </div>
-                <h3 className="text-center font-medium text-2xl">
+                <h3 className="text-center font-medium text-2xl dark:text-dark-text">
                   Click, or drop your files here
                 </h3>
               </>
